@@ -1,2 +1,0 @@
-# kukirin
-k
