@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  
+}
+header {
+    background-image: url(https://i.postimg.cc/FHbJ1nSr/Rectangle-1.png);
+    height: 1008px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+  
+  button {
+
+    background-color: #FF781E;
+    padding: 7px;
+    border-radius: 12px;
+    color: white
+  }
+
+  .text {
+    color:#FF781E;
+  }
+
+  main {
+
+    background-image: url(https://i.postimg.cc/02vcrCVr/Wireframe-2-2.png);
+    height: 1008px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+  }
+
+  .k {
+   
+
+    width: 571px;
+    height: 294px;
+    background-color: rgb(255, 120, 30, 0.4)
+    
+    
+  }
+
+  .mi {
+    color: aliceblue;
+
+    font-size:64px ;
+  }
+
+
+
+  .gpro {
+
+    background-image: url(https://kukirin.ie/wp-content/uploads/2023/05/Kukirin-G3-Pro-1200W-electric-scooter-max-65KM-H-EAN-GTIN-6191559757232.jpg);
+  }
+
+.nas {
+  
+  font-size: 100px;
+  color: aliceblue;
+}
+
+.about {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.nas {
+  font-size: 64px; /* можно оставить твои 100px */
+  color: aliceblue;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  padding: 30px 20px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 15px;
+  color: #FF781E;
+}
+
+.card p {
+  font-size: 18px;
+  color: #333;
+}
+
+
+
+.catalog {
+  background-image: url("https://sc04.alicdn.com/kf/H2992152dd40d4f2f83fef8d838bab7bfQ/237082964/H2992152dd40d4f2f83fef8d838bab7bfQ.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 64px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 60px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.product button {
+  background-color: #FF781E;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.product button:hover {
+  background-color: #e56710;
+}
+
+
+
+
